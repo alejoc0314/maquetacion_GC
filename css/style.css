@@ -29,7 +29,7 @@ body {
 
 
 .box1 {
-    background-image: url("css/images/calendario_vector.png");
+    background-image: url("/images/calendario_vector.png");
     background-position: 155px 15px;
     background-repeat: no-repeat;
     background-size: 45%;
@@ -41,7 +41,7 @@ body {
 }
 
 .box2 {
-    background-image: url("images/reloj_vector.jpg");
+    background-image: url("/images/reloj_vector.jpg");
     background-position: 155px 15px;
     background-repeat: no-repeat;
     background-size: 45%;
@@ -95,7 +95,7 @@ body {
 }
 
 .boton_copy {
-    background-image: url("images/copy_vector.png");
+    background-image: url("/images/copy_vector.png");
     background-position: 2px 2px;
     background-size: 24px;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ body {
     margin-bottom: 20px;
     width: 17%;
     height: 7%;
-    background-image: url("images/logou_vector.png");
+    background-image: url("/images/logou_vector.png");
     background-position: 230px 17px;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -193,7 +193,7 @@ body {
 .content_box {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(images/fondo_content_box.jpg);
+            rgba(0, 0, 0, 0.5)), url(/images/fondo_content_box.jpg);
     background-position: top left;
     background-size: cover;
     background-color: #f6f6f6;
@@ -419,7 +419,7 @@ progress::-webkit-progress-bar {
     justify-content: end;
     margin: 81px 10px 0 10px;
     height: 37.5%;
-    background-image: url("/css/images/bienvenida.jpg");
+    background-image: url("/images/bienvenida.jpg");
     background-size: 500px;
     color: #d7d6d6;
     border-radius: 8px;
@@ -461,7 +461,7 @@ progress::-webkit-progress-bar {
     width: 52px;
     height: 52px;
     border-radius: 5px;
-    background-image: url("images/img_calendario1.png");
+    background-image: url("/images/img_calendario1.png");
     background-size: 100px;
     background-position: right top;
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ progress::-webkit-progress-bar {
     width: 52px;
     height: 52px;
     border-radius: 5px;
-    background-image: url("images/img_calendario2.png");
+    background-image: url("/images/img_calendario2.png");
     background-size: 50px;
     background-position: right top;
     margin-right: 6px;
@@ -482,7 +482,7 @@ progress::-webkit-progress-bar {
     width: 52px;
     height: 52px;
     border-radius: 5px;
-    background-image: url("images/img_calendario3.png");
+    background-image: url("/images/img_calendario3.png");
     background-size: 50px;
     background-position: right top;
     margin-right: 6px;
@@ -492,7 +492,7 @@ progress::-webkit-progress-bar {
     width: 52px;
     height: 52px;
     border-radius: 5px;
-    background-image: url("images/img_calendario4.png");
+    background-image: url("/images/img_calendario4.png");
     background-size: 100px;
     background-position: right top;
     background-repeat: no-repeat;
