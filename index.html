@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="height=device-height, initial-scale=1.25">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>GCmeet | Inicio</title>
+</head>
+
+<body>
+    <div class="sidebar_izq">
+        <p class="title">GC<b>meet</b></p>
+        <div class="box1">
+            <p class="letras">Fecha</p>
+            <p id="fecha"></p>
+        </div>
+        <div class="box2">
+            <p class="letras">Hora</p>
+            <p id="hora"></p>
+        </div>
+        <div class="links">
+            <div class="enlace_boton">
+                <p class="titulo">Enlace</p>
+                <button class="boton_copy" onclick="window.location.href='https://meet.google.com/'"></button>
+            </div>
+            <p class="link">https://meet.google.com/mkq-crdu</p>
+        </div>
+        <div class="box3">
+            <p class="letras">Archivos de la reunión</p>
+            <table class="archivos">
+                <tbody>
+                    <tr>
+                        <td width="20px" height="10px"></td>
+                        <td width="180px"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/css/images/pdf_vector.jpg" width="10px"></td>
+                        <td>Informe de junta.pdf</td>
+                        <td class="view"><a href="http://smallpdf.com">👁‍🗨</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/css/images/pdf_vector.jpg" width="10px"></td>
+                        <td>Informe de gerente.pdf</td>
+                        <td class="view"><a href="http://smallpdf.com">👁‍🗨</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/css/images/pdf_vector.jpg" width="10px"></td>
+                        <td>Informe financiero.pdf</td>
+                        <td class="view"><a href="http://smallpdf.com">👁‍🗨</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/css/images/pdf_vector.jpg" width="10px"></td>
+                        <td>Proposiciones.pdf</td>
+                        <td class="view"><a href="http://smallpdf.com">👁‍🗨</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/css/images/pdf_vector.jpg" width="10px"></td>
+                        <td>Cuentas de cobro.pdf</td>
+                        <td class="view"><a href="http://smallpdf.com">👁‍🗨</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </div>
+        <button class="logout" onclick="cerrar_sesion()">
+            <p>Cerrar Sesión</p>
+        </button>
+    </div>
+    <div class="content">
+        <div class="content_box">
+            <img class="img_icon" src="/css/images/gc_icon.png" width="10px">
+            <div class="text_content_box">
+                <h2>Junta directiva</h2>
+                <p>Garantías Comunitarias</p>
+            </div>
+        </div>
+        <div class="content_box2">
+            <div class="splitbox1">
+                <p class="letter_title">Delegar poder</p>
+                <div class="split">
+                    <p class="letter">Identificación</p>
+                    <p class="letter">Asamblea general</p>
+                </div>
+                <div class="split">
+                    <p class="data">CC: 1001505925</p>
+                    <p class="data">Garantías Comunitarias</p>
+                </div>
+                <div class="info">
+                    <p class="letter">Nombre</p>
+                    <p class="data">Daniel Perez</p>
+                </div>
+                <div>
+                    <p class="letter">Correo</p>
+                    <p class="data">daniel.perez@garantiascomunitarias.com</p>
+                </div>
+                <div>
+                    <p class="letter">Firma</p>
+                    <img class="firma" src="/css/images/firma.png" width="90px">
+                </div>
+                <button class="boton" onclick="cancelar_poder()">Cancelar poder</button>
+            </div>
+            <div class="splitbox2">
+                <div class="reloj">
+                    <p class="text">La reunión comenzará en</p>
+                    <div class="content_reloj">
+                        <div class="element">
+                            <p class="dias">10</p>
+                            <p class="letra_reloj">Días</p>
+                        </div>
+                        <div>
+                            <p class="spread">:</p>
+                        </div>
+                        <div class="element">
+                            <p class="horas">12</p>
+                            <p class="letra_reloj">Horas</p>
+                        </div>
+                        <div>
+                            <p class="spread">:</p>
+                        </div>
+                        <div class="element">
+                            <p class="minutos">30</p>
+                            <p class="letra_reloj">Minutos</p>
+                        </div>
+                    </div>
+                    <progress value="49" max="100"></progress>
+                    <div class="quorum">
+                        <p>Quorum 24/50</p>
+                        <p>49%</p>
+                    </div>
+                    <button class="boton" onclick="window.location.href='https://meet.google.com/'">Ingresar a la
+                        reunión</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar_der">
+        <div class="bienvenida">
+            <p class="bienvenido">Bienvenido,</p>
+            <p class="name">Juan Camilo</p>
+        </div>
+        <div class="calendario">
+            <p class="titulo_calendario">Tus próximas reuniones</p>
+            <div class="box_calendario">
+                <div class="img_calendario1"></div>
+                <div>
+                    <p class="reunion">Junta directiva</p>
+                    <p class="cliente_fecha">Garantías Comunitarias panamá</p>
+                    <p class="cliente_fecha">📅 30/03/23 | 🕐 02:00 p.m.</p>
+                </div>
+            </div>
+            <div class="box_calendario">
+                <div class="img_calendario2"></div>
+                <div>
+                    <p class="reunion">Asamblea general</p>
+                    <p class="cliente_fecha">Garantías Comunitarias</p>
+                    <p class="cliente_fecha">📅 14/04/23 | 🕐 02:00 p.m.</p>
+                </div>
+            </div>
+            <div class="box_calendario">
+                <div class="img_calendario3"></div>
+                <div>
+                    <p class="reunion">Junta directiva</p>
+                    <p class="cliente_fecha">GCMutual</p>
+                    <p class="cliente_fecha">📅 28/04/23 | 🕐 02:00 p.m.</p>
+                </div>
+            </div>
+            <div class="box_calendario">
+                <div class="img_calendario4"></div>
+                <div>
+                    <p class="reunion">Reunión de análisis</p>
+                    <p class="cliente_fecha">GCBloomRisk</p>
+                    <p class="cliente_fecha">📅 15/05/23 | 🕐 02:00 p.m.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
