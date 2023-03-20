@@ -29,7 +29,7 @@ body {
 
 
 .box1 {
-    background-image: url("/css/images/calendario_vector.png");
+    background-image: url('css/images/calendario_vector.png');
     background-position: 155px 15px;
     background-repeat: no-repeat;
     background-size: 45%;
