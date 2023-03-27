@@ -29,7 +29,11 @@ body {
 
 
 .box1 {
+<<<<<<< HEAD
     background-image: url("images/calendario_vector.png");
+=======
+    background-image: url('images/calendario_vector.png');
+>>>>>>> f1a6363697c914c1b345dc99034f1f1df12c8a83
     background-position: 155px 15px;
     background-repeat: no-repeat;
     background-size: 45%;
@@ -41,7 +45,11 @@ body {
 }
 
 .box2 {
+<<<<<<< HEAD
     background-image: url("images/reloj_vector.jpg");
+=======
+    background-image: url('images/reloj_vector.jpg');
+>>>>>>> f1a6363697c914c1b345dc99034f1f1df12c8a83
     background-position: 155px 15px;
     background-repeat: no-repeat;
     background-size: 45%;
@@ -95,7 +103,11 @@ body {
 }
 
 .boton_copy {
+<<<<<<< HEAD
     background-image: url("images/copy_vector.png");
+=======
+    background-image: url('images/copy_vector.png');
+>>>>>>> f1a6363697c914c1b345dc99034f1f1df12c8a83
     background-position: 2px 2px;
     background-size: 24px;
     background-repeat: no-repeat;
@@ -149,7 +161,11 @@ body {
     margin-bottom: 20px;
     width: 17%;
     height: 7%;
+<<<<<<< HEAD
     background-image: url("images/logou_vector.png");
+=======
+    background-image: url('images/logou_vector.png');
+>>>>>>> f1a6363697c914c1b345dc99034f1f1df12c8a83
     background-position: 230px 17px;
     background-repeat: no-repeat;
     background-size: 20px;
